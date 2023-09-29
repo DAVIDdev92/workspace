@@ -1,0 +1,58 @@
+:root {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #0B173B;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.header-derecha {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.icon-outlined {
+   margin: 0;
+   align-self: center;
+   justify-self: center;
+    
+}
+
+.nav-layout-box ul {
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: center;
+list-style-type: none;
+font-family: 'Work Sans', sans-serif;
+
+
+}
+
+.nav-layout-box ul li a {
+    justify-self:center;
+    align-self: center;
+    gap: 2rem;
+    margin: 6rem;
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+.redes-sociales1 ul {
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: space-evenly;
+list-style-type: none;
+gap: 1rem;
+
+}
