@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="reset.css" />
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&family=Work+Sans:wght@200;400;700&display=swap');
+
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&family=Work+Sans:wght@200;400;700&display=swap');
     </style>
 
@@ -81,7 +83,7 @@
                         <li>
                             <a class="fb" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30px"
                                     viewBox="0 0 512 512" fill="#ffffff">
-             
+
                                     <path
                                         d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
                                 </svg>
@@ -128,14 +130,15 @@
 
                         <div class="card-p">
 
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor em que
+                                laudantium</p>
 
                             <a href="#">
 
                                 <h3>Read more</h3>
 
                                 <svg class="flechita" xmlns="http://www.w3.org/2000/svg" height="1em"
-                                    viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    viewBox="0 0 448 512">
                                     <style>
                                         svg {
                                             fill: #ff0000
@@ -356,7 +359,7 @@
                     <span>
                         <a class="category" href="#">Action<span> / </span>Adventure</a>
                     </span>
-                    <div>
+                    <div class="hidden-content">
                         <a href="#">View more information</a>
                         <a href="#">Watch trailer</a>
                     </div>
@@ -371,7 +374,7 @@
                     <span>
                         <a class="category" href="#">Adventure</a>
                     </span>
-                    <div>
+                    <div class="hidden-content">
                         <a href="#">View more information</a>
                         <a href="#">Watch trailer</a>
                     </div>
@@ -386,7 +389,7 @@
                     <span>
                         <a class="category" href="#">Adventure</a>
                     </span>
-                    <div>
+                    <div class="hidden-content">
                         <a href="#">View more information</a>
                         <a href="#">Watch trailer</a>
                     </div>
@@ -401,7 +404,7 @@
                     <span>
                         <a class="category" href="#">Action<span> / </span>Adventure</a>
                     </span>
-                    <div>
+                    <div class="hidden-content">
                         <a href="#">View more information</a>
                         <a href="#">Watch trailer</a>
                     </div>
@@ -411,75 +414,79 @@
 
         </section>
 
-        <section class="opinions">
-            <article>
-                <img src="" />
-                <h3>It was so much fun for all of my friends and family.</h3>
+        <section class="div-opinions">
+            <article class="opinion">
+                <img src="imagenes/comentario1" />
+                <h3>"It was so much fun for all of my friends and family."</h3>
                 <h4>LISA MORRISON</h4>
                 <h5>Film expert</h5>
             </article>
-            <article>
-                <img src="" />
-                <h3>I appreciate the high quality of your products guys!</h3>
-                <h4>MIKE STEVENS</h4>
+            <article class="opinion">
+                <img src="imagenes/comentario2" />
+                <h3>"I appreciate the high quality of your products guys!"</h3>
+                <h4>MARTIN MOORE</h4>
                 <h5>Film expert</h5>
             </article>
-            <article>
-                <img src="" />
-                <h3>Everything is great about this website, we liked it.</h3>
-                <h4>MARTIN MOORE</h4>
+            <article class="opinion">
+                <img src="imagenes/comentario3" />
+                <h3>"Everything is great about this website, we liked it."</h3>
+                <h4>ANDREA GARCÍA</h4>
                 <h5>Film expert</h5>
             </article>
         </section>
 
         <section class="latest-news">
-            <h3>Latest News</h3>
-            <p>Stay tuned for all the latest entertainment news and TV premiers</p>
-            <article>
-                <img href="#" src="imagenes/img5.png" alt="" />
-                <h3><a href="#">BAND OF BROTHERS</a></h3>
-                <span>
-                    <a href="#">Adventure</a>
-                </span>
-                <div>
-                    <a href="#">View more information</a>
-                    <a href="#">Watch trailer</a>
+            <div class="div-latest-news max-content">
+                <h3>Latest News</h3>
+                <p>Stay tuned for all the latest entertainment news and TV premiers</p>
+                <div class="grid">
+                    <article>
+                        <img href="#" src="imagenes/img5.png" alt="" />
+                        <h3><a href="#">BAND OF BROTHERS</a></h3>
+                        <span>
+                            <a href="#">Adventure</a>
+                        </span>
+                        <div>
+                            <a href="#">View more information</a>
+                            <a href="#">Watch trailer</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img href="#" src="imagenes/img5.png" alt="" />
+                        <h3><a href="#">BAND OF BROTHERS</a></h3>
+                        <span>
+                            <a href="#">Adventure</a>
+                        </span>
+                        <div>
+                            <a href="#">View more information</a>
+                            <a href="#">Watch trailer</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img href="#" src="imagenes/img5.png" alt="" />
+                        <h3><a href="#">BAND OF BROTHERS</a></h3>
+                        <span>
+                            <a href="#">Adventure</a>
+                        </span>
+                        <div>
+                            <a href="#">View more information</a>
+                            <a href="#">Watch trailer</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img href="#" src="imagenes/img5.png" alt="" />
+                        <h3><a href="#">BAND OF BROTHERS</a></h3>
+                        <span>
+                            <a href="#">Adventure</a>
+                        </span>
+                        <div>
+                            <a href="#">View more information</a>
+                            <a href="#">Watch trailer</a>
+                        </div>
+                    </article>
                 </div>
-            </article>
-            <article>
-                <img href="#" src="imagenes/img5.png" alt="" />
-                <h3><a href="#">BAND OF BROTHERS</a></h3>
-                <span>
-                    <a href="#">Adventure</a>
-                </span>
-                <div>
-                    <a href="#">View more information</a>
-                    <a href="#">Watch trailer</a>
-                </div>
-            </article>
-            <article>
-                <img href="#" src="imagenes/img5.png" alt="" />
-                <h3><a href="#">BAND OF BROTHERS</a></h3>
-                <span>
-                    <a href="#">Adventure</a>
-                </span>
-                <div>
-                    <a href="#">View more information</a>
-                    <a href="#">Watch trailer</a>
-                </div>
-            </article>
-            <article>
-                <img href="#" src="imagenes/img5.png" alt="" />
-                <h3><a href="#">BAND OF BROTHERS</a></h3>
-                <span>
-                    <a href="#">Adventure</a>
-                </span>
-                <div>
-                    <a href="#">View more information</a>
-                    <a href="#">Watch trailer</a>
-                </div>
-            </article>
-            <button>Browse more news</button>
+                <button>Browse more news</button>
+            </div>
         </section>
 
     </main>
