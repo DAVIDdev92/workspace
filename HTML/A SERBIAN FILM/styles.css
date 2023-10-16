@@ -1,0 +1,478 @@
+:root {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    --red: #E0041D;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inline-size: 100%;
+    background-color: #191b22;
+    color: #ffffff;
+}
+
+.header {
+    background-color: #191b22;
+    inline-size: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen-fondo {
+    width:100%;
+    height: 550px;
+    
+}
+
+.div-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 70px;
+    inline-size: 100%;
+    line-height: 80%;
+
+}
+
+.header-derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav-layout-box ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    color: rgb(189, 189, 189);
+}
+
+.nav-layout-box ul li {
+    padding: 4px 22px;
+    font-weight: 400;
+}
+
+.nav-layout-box ul li a:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.nav-layout-box ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-layout-box ul li a h3 {
+    border-bottom: 1px solid transparent;
+    padding: 10px 1px;
+
+}
+
+.nav-layout-box ul li a h3:hover {
+    border-bottom: 1px solid #DF0101;
+    transition-duration: 0.2s;
+
+
+}
+
+.nav-layout-box ul span {
+    color: #ffffff;
+}
+
+.search-button:hover {
+    color: #868686;
+    transition-duration: 0.4s;
+}
+
+.redes-sociales1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales1 ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.redes-sociales1 ul li a {
+    display: flex;
+    padding: 5px;
+
+}
+
+.redes-sociales1 ul li a svg,
+.icon svg {
+    inline-size: 1rem;
+    fill: #ffffff;
+    cursor: pointer;
+    transition: fill 0.4s;
+}
+
+.twitter:hover svg {
+    fill: rgb(0, 133, 177);
+}
+
+.fb:hover svg {
+    fill: rgb(48, 48, 145);
+}
+
+.instagram:hover svg {
+    fill: #c54444;
+
+}
+
+.youtube:hover svg {
+    fill: #f60303;
+}
+
+.max-content {
+    max-inline-size: 1200px;
+}
+
+.fondo-superior {
+    background-image: url(imagenes/fondo-supeior.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bottom-fondo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    
+}
+
+.title-date {
+    width:60%;
+    font-size: 34px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px 390px 15px 390px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+     
+
+}
+
+.title-date date {
+    font-size: 28px;
+    font-weight:400;
+    color: #999999;
+}
+
+.NC-17 {
+    content: "";
+    width: 41px;
+    height: 18px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.NC-17:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+
+.rating {
+    width: 100%;
+    background-color: #000000;
+    opacity: 80%;
+    padding: 12px;
+    height: 33px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-rate ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    
+}
+
+.nav-rate ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    
+    
+}
+
+.nav-rate ul li .votes, .nav-rate ul li .rate-this, .nav-rate ul li .watchers, .nav-rate ul li .plays, .nav-rate ul li .collected, .nav-rate ul li .comments, .nav-rate ul li .lists, .nav-rate ul li .favorited {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    left: 0;
+    cursor:pointer;
+}
+
+
+
+.nav-rate ul li .negrita {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.nav-rate ul li .negrita-rate {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-rate ul li .light-grey {
+    font-family: 'varela round', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    color:#999999;
+}
+
+
+.nav-rate ul li svg {
+    height: 30px;
+    fill:#661824;
+    cursor:pointer;
+}
+
+.actors {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin: 15px 390px 15px 390px;
+
+}
+
+.posters {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-wrap: balance;
+    gap: 2rem;
+    
+}
+
+.posters img {
+    width: 84px;
+}
+
+.actors h2 {
+    justify-self: center;
+    align-self: flex-start;
+    font-size: 3rem;
+    margin: 10px 0px;
+}
+
+.actors .cast {
+    font-size: 12px;
+    display: inline-flex;
+    justify-self: center;
+    align-self: flex-start;
+    gap: 8px;
+    margin-bottom: 30px;
+
+}
+
+main {
+    width: 100%;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    height: 350px;
+    padding: 150px 150px 150px 150px;
+}
+
+figcaption {
+    font-family: 'Lora', sans-serif;
+    font-size: 14px;
+    color: #A8A8A8;
+    margin-top: 20px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-title:after {
+    display: inline-block;
+    content: "";
+    align-self: center;
+    justify-self: center;
+    margin-left: 1em;
+    block-size: 1.5px;
+    inline-size: 30px;
+    background-color: #FF0000;
+}
+
+.footer-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-section ul li {
+    font-family: 'Lora', sans-serif;
+    font-size: 14px;
+    color: #A8A8A8;
+    cursor:pointer;
+}
+
+.footer-section h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    line-height: 0.8em;
+    color: #A8A8A8;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.newsletter-sign {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    cursor:pointer;
+}
+
+
+
+.redes-sociales-footer:before {
+    display:flex;
+    content: "";
+    align-self: center;
+    justify-self: center;
+    block-size: 0.5px;
+    inline-size: 200px;
+    background-color: #A8A8A8;
+    margin-bottom: 40px;
+}
+
+.redes-sociales-footer ul {
+    display:flex;
+    flex-direction: row;
+    gap: 5px; 
+}
+
+
+
+.redes-sociales-footer ul li a svg {
+    fill: #ffffff;
+    width: 13px; 
+    
+}
+
+.redes-sociales-footer .twitter-footer, .redes-sociales-footer .fb-footer, .redes-sociales-footer .insta-footer, .redes-sociales-footer .youtube-footer    {
+    background: #1DA1F3;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales-footer .fb-footer {
+    background: #3A559F ;
+}
+
+.redes-sociales-footer .insta-footer {
+    background: #CE2E92 ;
+}
+
+.redes-sociales-footer .youtube-footer {
+    background: #E0011A ;
+} 
+
+.fixed-shit {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    transform: translate(0, -50%);
+    gap: 3px;
+}
+
+.fixed-shit a {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background: #E0041D;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black  0.5px 0.5px 1px 0.1px;
+}
+.fixed-shit a svg {
+    height: 1.6rem;
+    fill: #191b22;
+}
